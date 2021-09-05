@@ -1,0 +1,11 @@
+click==7.1.2
+eventlet==0.29.0
+Flask==1.1.2
+numpy==1.19.2
+python-engineio==3.13.2
+python-socketio==4.6.0
+six==1.15.0
+tqdm==4.50.2
+opencv-python
+nvidia-pyindex
+tritonclient[all]
