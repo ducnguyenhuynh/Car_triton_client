@@ -84,8 +84,6 @@ class ObjClient(object):
 
             box = det[0]*ratio_y, det[1]*ratio_x, det[2]*ratio_y, det[3]*ratio_x
             
-
-            
             confidence = self.scores[i]
             
             # print(f"{self.classes[i]}: {confidence}")

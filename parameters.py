@@ -45,8 +45,8 @@ class Parameters():
     destination_points = np.float32([
     [0 * x_size, y_size],
     [0 * x_size, 0],
-    [x_size - (0 * x), 0],
-    [x_size - (0 * x), y_size]
+    [x_size - (0 * x_size), 0],
+    [x_size - (0 * x_size), y_size]
     ])
     
     perspective_transform = cv2.getPerspectiveTransform(source_points, destination_points)
